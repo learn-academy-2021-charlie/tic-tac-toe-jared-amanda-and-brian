@@ -1,5 +1,16 @@
+h1 {
+  text-align: center;
+}
+
 .square{
   height: 100px;
   width: 100px;
   border: 2px solid black;
+}
+
+#gameboard {
+  display: flex;
+  width: 330px;
+  flex-wrap: wrap;
+  margin:  auto;
 }
