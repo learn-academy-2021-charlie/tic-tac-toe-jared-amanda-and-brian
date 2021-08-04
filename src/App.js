@@ -14,6 +14,11 @@ class App extends Component{
     return(
       <>
         <h1>Tic Tac Toe</h1>
+        <div id="gamebored">
+
+
+
+        </div>
         <Square />
       </>
     )
