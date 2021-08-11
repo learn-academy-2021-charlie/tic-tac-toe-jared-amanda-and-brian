@@ -2,10 +2,10 @@ import React, { Component } from 'react'
 
 class Square extends Component{
 
-    handleClick = () => {
-      this.props.handleGamePlay(this.props.index)
-      this.props.playerTurn()
-    }
+  handleClick = () => {
+    this.props.handleGamePlay(this.props.index)
+    this.props.playerTurn()    
+  }
 
   render(){
     return(
